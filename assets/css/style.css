@@ -61,42 +61,42 @@ h1 {
   -ms-animation: flyIn ease-out 2s;
 }@keyframes flyIn {
   0% {
-    top: 100%;
+    bottom: 100%;
   }
   100% {
-    top: 50%;
+    bottom: 50%;
   }
 }
 @-moz-keyframes flyIn {
   0% {
-    top: 100%;
+    bottom: 100%;
   }
   100% {
-    top: 50%;
+    bottom: 50%;
   }
 }
 
 @-webkit-keyframes flyIn {
   0% {
-    top: 100%;
+    bottom: 100%;
   }
   100% {
-    top: 50%;
+    bottom: 50%;
   }
 }
 @-o-keyframes flyIn {
   0% {
-    top: 100%;
+    bottom: 100%;
   }
   100% {
-    top: 50%;
+    bottom: 50%;
   }
 }
 @-ms-keyframes flyIn {
   0% {
-    top: 100%;
+    bottom: 100%;
   }
   100% {
-    top: 50%;
+    bottom: 50%;
   }
 }
