@@ -1,1 +1,103 @@
+body{
+  background-color: yellow;
+}
+h1{
+  color: black;
+  left: 50%;
+  margin-right: -50%;
+}
 
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+.fly-in{
+  position: relative;
+  animation: flyIn ease-out 2s;
+  -webkit-animation: flyIn ease-oout 2s;
+  -moz-animation: flyIn ease-out 2s;
+  -o-animation: flyIn ease-out 2s;
+  -ms-animation: flyIn ease-out 2s;
+}@keyframes flyIn {
+  0% {
+    top: 100%
+  }
+  100% {
+    top: 50%
+  }
+}
+@-moz-keyframes flyIn {
+  0% {
+    top: 100%
+  }
+  100% {
+    top: 50%
+  }
+}
+
+@-webkit-keyframes flyIn {
+  0% {
+    top: 100%
+  }
+  100% {
+    top: 50%
+  }
+}
+@-o-keyframes flyIn {
+  0% {
+    top: 100%
+  }
+  100% {
+    top: 50%
+  }
+}
+@-ms-keyframes flyIn {
+  0% {
+    top: 100%
+  }
+  100% {
+    top: 50%
+  }
+}
