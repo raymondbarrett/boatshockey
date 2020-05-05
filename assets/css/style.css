@@ -7,13 +7,18 @@ h1 {
   font-size: 400%;
 }
 
-.fade-in {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-}@keyframes fadeIn {
+.fly-fade-in {
+  position: absolute;
+  left: 25%;
+  margin-right: -25%;
+  animation: fadeIn ease 2s, flyIn ease 2s;
+  -webkit-animation: fadeIn ease 2s, flyIn ease 2s;
+  -moz-animation: fadeIn ease 2s, flyIn ease 2s;
+  -o-animation: fadeIn ease 2s, flyIn ease 2s;
+  -ms-animation: fadeIn ease 2s, flyIn ease 2s;
+}
+
+@keyframes fadeIn {
   0% {
     opacity:0;
   }
@@ -52,18 +57,9 @@ h1 {
   }
   100% {
     opacity:1;
+  }
 }
-}
-.fly-in {
-  position: absolute;
-  left: 25%;
-  margin-right: -25%;
-  animation: flyIn ease forwards 2s;
-  -webkit-animation: flyIn ease forwards 2s;
-  -moz-animation: flyIn ease forwards 2s;
-  -o-animation: flyIn ease forwards 2s;
-  -ms-animation: flyIn ease forwards 2s;
-}@keyframes flyIn {
+@keyframes flyIn {
   0% {
     bottom: 25%;
   }
