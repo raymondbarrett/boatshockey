@@ -55,7 +55,7 @@ h1 {
 .fly-in {
   position: relative;
   animation: flyIn ease-out 2s;
-  -webkit-animation: flyIn ease-oout 2s;
+  -webkit-animation: flyIn ease-out 2s;
   -moz-animation: flyIn ease-out 2s;
   -o-animation: flyIn ease-out 2s;
   -ms-animation: flyIn ease-out 2s;
