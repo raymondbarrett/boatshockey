@@ -56,8 +56,8 @@ h1 {
 }
 .fly-in {
   position: absolute;
-  left: 50%;
-  margin-right: -50%;
+  left: 25%;
+  margin-right: -25%;
   animation: flyIn ease forwards 2s;
   -webkit-animation: flyIn ease forwards 2s;
   -moz-animation: flyIn ease forwards 2s;
