@@ -53,7 +53,7 @@ h1 {
     opacity:1;
 }
 .fly-in {
-  position: relative;
+  position: absolute;
   animation: flyIn ease-out 2s;
   -webkit-animation: flyIn ease-out 2s;
   -moz-animation: flyIn ease-out 2s;
