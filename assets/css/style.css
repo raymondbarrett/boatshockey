@@ -64,15 +64,15 @@ h1 {
   -ms-animation: flyIn ease forwards 2s;
 }@keyframes flyIn {
   0% {
-    bottom: 0px;
+    bottom: 75%;
   }
   100% {
-    bottom: 600px;
+    bottom: 50%;
   }
 }
 @-moz-keyframes flyIn {
   0% {
-    bottom: 100%;
+    bottom: 75%;
   }
   100% {
     bottom: 50%;
@@ -81,7 +81,7 @@ h1 {
 
 @-webkit-keyframes flyIn {
   0% {
-    bottom: 100%;
+    bottom: 75%;
   }
   100% {
     bottom: 50%;
@@ -89,7 +89,7 @@ h1 {
 }
 @-o-keyframes flyIn {
   0% {
-    bottom: 100%;
+    bottom: 75%;
   }
   100% {
     bottom: 50%;
@@ -97,7 +97,7 @@ h1 {
 }
 @-ms-keyframes flyIn {
   0% {
-    bottom: 100%;
+    bottom: 75%;
   }
   100% {
     bottom: 50%;
