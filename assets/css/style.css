@@ -3,8 +3,6 @@ body {
 }
 h1 {
   color: black;
-  left: 50%;
-  margin-right: -50%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 400%;
 }
@@ -58,6 +56,8 @@ h1 {
 }
 .fly-in {
   position: absolute;
+  left: 50%;
+  margin-right: -50%;
   animation: flyIn ease forwards 2s;
   -webkit-animation: flyIn ease forwards 2s;
   -moz-animation: flyIn ease forwards 2s;
@@ -65,7 +65,7 @@ h1 {
   -ms-animation: flyIn ease forwards 2s;
 }@keyframes flyIn {
   0% {
-    bottom: 75%;
+    bottom: 25%;
   }
   100% {
     bottom: 50%;
@@ -73,7 +73,7 @@ h1 {
 }
 @-moz-keyframes flyIn {
   0% {
-    bottom: 75%;
+    bottom: 25%;
   }
   100% {
     bottom: 50%;
@@ -82,7 +82,7 @@ h1 {
 
 @-webkit-keyframes flyIn {
   0% {
-    bottom: 75%;
+    bottom: 25%;
   }
   100% {
     bottom: 50%;
@@ -90,7 +90,7 @@ h1 {
 }
 @-o-keyframes flyIn {
   0% {
-    bottom: 75%;
+    bottom: 25%;
   }
   100% {
     bottom: 50%;
@@ -98,7 +98,7 @@ h1 {
 }
 @-ms-keyframes flyIn {
   0% {
-    bottom: 75%;
+    bottom: 25%;
   }
   100% {
     bottom: 50%;
