@@ -9,8 +9,8 @@ h1 {
 
 .fly-fade-in {
   position: absolute;
-  left: 25%;
-  margin-right: -25%;
+  left: 35%;
+  margin-right: -35%;
   animation: fadeIn ease 2s, flyIn ease 2s;
   -webkit-animation: fadeIn ease 2s, flyIn ease 2s;
   -moz-animation: fadeIn ease 2s, flyIn ease 2s;
