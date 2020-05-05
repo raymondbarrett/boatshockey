@@ -3,6 +3,7 @@ body {
 }
 h1 {
   color: black;
+  text-align: center;
 }
 
 .fade-in {
@@ -53,8 +54,6 @@ h1 {
 }
 .fly-in {
   position: relative;
-  left: 50%;
-  margin-right: -50%;
   animation: flyIn ease-out 2s;
   -webkit-animation: flyIn ease-oout 2s;
   -moz-animation: flyIn ease-out 2s;
