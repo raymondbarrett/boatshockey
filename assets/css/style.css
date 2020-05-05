@@ -57,7 +57,6 @@ h1 {
 }
 .fly-in {
   position: absolute;
-  color: blue;
   animation: flyIn ease forwards 2s;
   -webkit-animation: flyIn ease forwards 2s;
   -moz-animation: flyIn ease forwards 2s;
