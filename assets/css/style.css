@@ -1,7 +1,7 @@
-body{
+body {
   background-color: yellow;
 }
-h1{
+h1 {
   color: black;
 }
 
@@ -51,7 +51,7 @@ h1{
   100% {
     opacity:1;
 }
-.fly-in{
+.fly-in {
   position: relative;
   left: 50%;
   margin-right: -50%;
