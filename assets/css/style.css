@@ -2,8 +2,10 @@ body {
   background-color: yellow;
 }
 h1 {
-  /*color: black;*/
+  color: black;
   text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: large;
 }
 
 .fade-in {
