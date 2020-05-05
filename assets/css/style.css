@@ -3,8 +3,9 @@ body {
 }
 h1 {
   color: black;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Lucida Console" , monospace;
   font-size: 400%;
+  letter-spacing: 0.5em;
   text-align: center;
 }
 
