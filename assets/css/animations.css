@@ -30,6 +30,28 @@
   -o-animation: fadeIn 2s ease 2.5s, headerIn 2s ease forwards 2.5s;
   -ms-animation: fadeIn 2s ease 2.5s, headerIn 2s ease forwards 2.5s;
 }
+.header-fade-3 {
+  position: absolute;
+  left: 30%;
+  bottom: 100%;
+  margin: auto; 
+  animation: fadeIn 2s ease 3s, headerIn 2s ease forwards 3s;
+  -webkit-animation: fadeIn 2s ease 3s, headerIn 2s ease forwards 3s;
+  -moz-animation: fadeIn 2s ease 3s, headerIn 2s ease forwards 3s;
+  -o-animation: fadeIn 2s ease 3s, headerIn 2s ease forwards 3s;
+  -ms-animation: fadeIn 2s ease 3s, headerIn 2s ease forwards 3s;
+}
+.header-fade-4 {
+  position: absolute;
+  left: 40%;
+  bottom: 100%;
+  margin: auto; 
+  animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
+  -webkit-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
+  -moz-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
+  -o-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
+  -ms-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
+}
 
 @keyframes fadeIn {
   0% {
