@@ -54,11 +54,12 @@
   -ms-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
 }
 .waves {
-  position: absolute;
-  bottom:-20%
-  z-index: 999;
-  margin: auto; 
+  width: 100%;
+  margin: -1px;
   overflow: hidden;
+  position: absolute;
+  bottom:-20%;
+  z-index: 999;
   animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
   -webkit-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
   -moz-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
