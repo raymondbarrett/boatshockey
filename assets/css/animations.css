@@ -55,7 +55,6 @@
 }
 .waves {
   position: absolute;
-  left: -1000px;
   bottom: 100%;
   z-index: 999;
   margin: auto; 
