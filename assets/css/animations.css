@@ -53,7 +53,7 @@
   -o-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
   -ms-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
 }
-.bground-up {
+.waves {
   position: absolute;
   left: 40%;
   bottom: 100%;
