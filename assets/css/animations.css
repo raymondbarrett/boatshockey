@@ -15,7 +15,7 @@
   margin: auto; 
   animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
   -webkit-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
-  -moz-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
+  -moz-animation: 2s ease 2s fadeIn , 2s ease 2s headerIn;
   -o-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
   -ms-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
 }
@@ -26,7 +26,7 @@
   margin: auto; 
   animation: fadeIn 2s ease 2.5s, headerIn ease 2s forwards 2.5s;
   -webkit-animation: fadeIn 2s ease 2.5s, headerIn ease 2s forwards 2.5s;
-  -moz-animation: fadeIn 2s ease 2.5s, headerIn ease forwards 2.5s;
+  -moz-animation: 2s ease 2.5s fadeIn , 2s ease 2.5s headerIn;
   -o-animation: fadeIn 2s ease 2.5s, headerIn ease 2s forwards 2.5s;
   -ms-animation: fadeIn 2s ease 2.5s, headerIn ease 2s forwards 2.5s;
 }
