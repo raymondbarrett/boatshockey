@@ -56,7 +56,8 @@
 .waves {
   position: absolute;
   left: 40%;
-  bottom: 100%;
+  top: 0%;
+  z-index: 999;
   margin: auto; 
   animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
   -webkit-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
