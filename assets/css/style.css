@@ -17,7 +17,7 @@ h2 {
 .waves {
   position: absolute;
   width: 100%;
-  margin: 0%;
+  margin: -1px;
   overflow: hidden;
   bottom: 0%
 }
