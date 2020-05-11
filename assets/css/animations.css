@@ -55,9 +55,10 @@
 }
 .waves {
   position: absolute;
-  top:100%
+  bottom:-20%
   z-index: 999;
   margin: auto; 
+  overflow: hidden;
   animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
   -webkit-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
   -moz-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
@@ -192,45 +193,44 @@
 }
 @keyframes bgroundIn {
   0% {
-    top: 100%;
+    bottom: -20%;
   }
   100% {
-    top: 80%;
+    bottom: 0%;
   }
 }
 @-moz-keyframes bgroundIn {
   0% {
-    top: 100%;
+    bottom: -20%;
   }
   100% {
-    top: 80%;
+    bottom: 0%;
   }
 }
 @-webkit-keyframes bgroundIn {
   0% {
-    top: 100%;
+    bottom: -20%;
   }
   100% {
-    top: 80%;
+    bottom: 0%;
   }
 }
 @-o-keyframes bgoundIn {
   0% {
-    top: 100%;
+    bottom: -20%;
   }
   100% {
-    top: 80%;
+    bottom: 0%;
   }
 }
 @-ms-keyframes bgroundIn {
   0% {
-    top: 100%;
+    bottom: -20%;
   }
   100% {
-    top: 80%;
+    bottom: 0%;
   }
 }
-
 @keyframes bgroundScroll {
   0% {
     left: -500px;
