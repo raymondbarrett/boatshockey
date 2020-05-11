@@ -15,7 +15,7 @@
   margin: auto; 
   animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
   -webkit-animation: fadeIn ease 2s, headerIn ease 2s forwards 2s;
-  -moz-animation: fadeIn 2s ease 2s, headerIn ease forwards 2s;
+  -moz-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
   -o-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
   -ms-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
 }
