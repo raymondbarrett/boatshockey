@@ -58,11 +58,11 @@
   left: 40%;
   bottom: 100%;
   margin: auto; 
-  animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
-  -webkit-animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
-  -moz-animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
-  -o-animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
-  -ms-animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
+  animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
+  -webkit-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
+  -moz-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
+  -o-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
+  -ms-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
 }
 
 
