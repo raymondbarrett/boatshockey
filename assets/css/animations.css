@@ -56,7 +56,6 @@
 .waves {
   position: absolute;
   bottom:-20%;
-  width: 100%;
   clip-path: inset(0 0 0 0);
   z-index: 999;
   animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
