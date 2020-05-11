@@ -55,15 +55,15 @@
 }
 .waves {
   position: absolute;
-  left: 40%;
-  top: 0%;
+  left: -1000px;
+  bottom: 100%;
   z-index: 999;
   margin: auto; 
-  animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
-  -webkit-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
-  -moz-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
-  -o-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
-  -ms-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s infinite 5s;
+  animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
+  -webkit-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
+  -moz-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
+  -o-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
+  -ms-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
 }
 
 
