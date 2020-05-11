@@ -117,41 +117,41 @@
 
 @keyframes headerIn {
   0% {
-    bottom: 0%;
+    bottom: 100%;
   }
   100% {
-    top: 5%;
+    bottom: 90%;
   }
 }
 @-moz-keyframes headerIn {
   0% {
-    bottom: 0%;
+    bottom: 100%;
   }
   100% {
-    top: 5%;
+    bottom: 90%;
   }
 }
 @-webkit-keyframes headerIn {
   0% {
-    bottom: 0%;
+    bottom: 100%;
   }
   100% {
-    top: 5%;
+    bottom: 90%;
   }
 }
 @-o-keyframes headerIn {
   0% {
-    bottom: 0%;
+    bottom: 100%;
   }
   100% {
-    top: 5%;
+    bottom: 90%;
   }
 }
 @-ms-keyframes headerIn {
   0% {
-    bottom: 0%;
+    bottom: 100%;
   }
   100% {
-    top: 5%;
+    bottom: 90%;
   }
 }
