@@ -15,7 +15,9 @@ h2 {
   letter-spacing: 0.1em;
 }
 .waves {
-  wdith: 99%;
+  position: absolute;
+  width: 100%;
+  margin: 0%;
   overflow: hidden;
   bottom: 0%
 }
