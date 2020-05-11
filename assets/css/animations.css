@@ -53,6 +53,18 @@
   -o-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
   -ms-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
 }
+.bground-up {
+  position: absolute;
+  left: 40%;
+  bottom: 100%;
+  margin: auto; 
+  animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
+  -webkit-animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
+  -moz-animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
+  -o-animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
+  -ms-animation: bgroundIn 2s ease-out forwards 4s, bgroundScroll 5s infinite;
+}
+
 
 @keyframes fadeIn {
   0% {
@@ -176,5 +188,87 @@
   }
   100% {
     bottom: 90%;
+  }
+}
+@keyframes bgroundIn {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+@-moz-keyframes bgroundIn {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+@-webkit-keyframes bgroundIn {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+@-o-keyframes bgoundIn {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+@-ms-keyframes bgroundIn {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+
+
+@keyframes bgroundScroll {
+  0% {
+    left: -2000px;
+  }
+  100% {
+    left: -200px;
+  }
+}
+@-moz-keyframes bgroundScroll {
+  0% {
+    left: -2000px;
+  }
+  100% {
+    left: -200px;
+  }
+}
+@-webkit-keyframes bgroundScroll {
+  0% {
+    left: -2000px;
+  }
+  100% {
+    left: -200px;
+  }
+}
+@-o-keyframes bgoundScroll {
+  0% {
+    left: -2000px;
+  }
+  100% {
+    left: -200px;
+  }
+}
+@-ms-keyframes bgroundScroll {
+  0% {
+    left: -2000px;
+  }
+  100% {
+    left: -200px;
   }
 }
