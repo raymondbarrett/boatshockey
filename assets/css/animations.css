@@ -8,6 +8,27 @@
   -o-animation: fadeIn ease 2s, flyIn ease forwards 2s;
   -ms-animation: fadeIn ease 2s, flyIn ease forwards 2s;
 }
+.header-fade-1 {
+  position: absolute;
+  width: 100%;
+  margin: auto; 
+  animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
+  -webkit-animation: fadeIn ease 2s, headerIn ease 2s forwards 2s;
+  -moz-animation: fadeIn 2s ease 2s, headerIn ease forwards 2s;
+  -o-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
+  -ms-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
+}
+.header-fade-2 {
+  position: absolute;
+  width: 100%;
+  margin: auto; 
+  animation: fadeIn 2s ease 2.5s, headerIn ease 2s forwards 2.5s;
+  -webkit-animation: fadeIn ease 2.5s, headerIn ease 2s forwards 2.5s;
+  -moz-animation: fadeIn 2s ease 2.5s, headerIn ease forwards 2.5s;
+  -o-animation: fadeIn 2s ease 2.5s, headerIn ease 2s forwards 2.5s;
+  -ms-animation: fadeIn 2s ease 2.5s, headerIn ease 2s forwards 2.5s;
+}
+
 @keyframes fadeIn {
   0% {
     opacity:0;
@@ -16,7 +37,6 @@
     opacity:1;
   }
 }
-
 @-moz-keyframes fadeIn {
   0% {
     opacity:0;
@@ -49,6 +69,8 @@
     opacity:1;
   }
 }
+
+
 @keyframes flyIn {
   0% {
     bottom: 25%;
@@ -65,7 +87,6 @@
     bottom: 50%;
   }
 }
-
 @-webkit-keyframes flyIn {
   0% {
     bottom: 25%;
@@ -92,16 +113,6 @@
 }
 
 
-.header-fade-1 {
-  position: absolute;
-  width: 100%;
-  margin: auto; 
-  animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
-  -webkit-animation: fadeIn ease 2s, headerIn ease 2s forwards 2s;
-  -moz-animation: fadeIn 2s ease 2s, headerIn ease forwards 2s;
-  -o-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
-  -ms-animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
-}
 @keyframes headerIn {
   0% {
     bottom: 0%;
@@ -118,7 +129,6 @@
     top: 5%;
   }
 }
-
 @-webkit-keyframes headerIn {
   0% {
     bottom: 0%;
