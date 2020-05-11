@@ -53,6 +53,9 @@
   -o-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
   -ms-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
 }
+.wavecontainer {
+  width: 100vh;
+}
 .waves {
   position: absolute;
   bottom:-20%;
