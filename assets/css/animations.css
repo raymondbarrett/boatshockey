@@ -10,7 +10,6 @@
 }
 .header-fade-1 {
   position: absolute;
-  width: 100%;
   left: 10%;
   margin: auto; 
   animation: fadeIn 2s ease 2s, headerIn ease 2s forwards 2s;
@@ -21,7 +20,6 @@
 }
 .header-fade-2 {
   position: absolute;
-  width: 100%;
   left: 20%;
   margin: auto; 
   animation: fadeIn 2s ease 2.5s, headerIn ease 2s forwards 2.5s;
