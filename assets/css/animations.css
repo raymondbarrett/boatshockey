@@ -55,6 +55,7 @@
 }
 .waves {
   width: 100%;
+  z-index: -1;
   position: absolute;
   bottom: 0px;
   overflow: hidden;
