@@ -55,13 +55,8 @@
 }
 .waves {
   width: 100%;
-  bottom: -600px;
+  bottom: 0%;
   overflow: hidden;
-  animation: bgroundIn 1s ease-out forwards 4s;
-  -webkit-animation: bgroundIn 1s ease-out forwards 4s;
-  -moz-animation: bgroundIn 1s ease-out forwards 4s;
-  -o-animation: bgroundIn 1s ease-out forwards 4s;
-  -ms-animation: bgroundIn 1s ease-out forwards 4s;
 }
 
 
