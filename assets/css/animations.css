@@ -57,16 +57,13 @@
   width: 100vh;
 }
 .waves {
-  position: absolute;
-  bottom:-20%;
+  width: 1005;
   overflow: hidden;
-  clip-path: inset(0 0 0 0);
-  z-index: 999;
-  animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
-  -webkit-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
-  -moz-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
-  -o-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
-  -ms-animation: bgroundIn 1s ease-out forwards 4s, bgroundScroll 5s linear infinite 5s;
+  animation: bgroundIn 1s ease-out forwards 4s;
+  -webkit-animation: bgroundIn 1s ease-out forwards 4s;
+  -moz-animation: bgroundIn 1s ease-out forwards 4s;
+  -o-animation: bgroundIn 1s ease-out forwards 4s;
+  -ms-animation: bgroundIn 1s ease-out forwards 4s;
 }
 
 
@@ -232,45 +229,5 @@
   }
   100% {
     bottom: 0%;
-  }
-}
-@keyframes bgroundScroll {
-  0% {
-    left: -500px;
-  }
-  100% {
-    left: 500px;
-  }
-}
-@-moz-keyframes bgroundScroll {
-  0% {
-    left: -500px;
-  }
-  100% {
-    left: 500px;
-  }
-}
-@-webkit-keyframes bgroundScroll {
-  0% {
-    left: -500px;
-  }
-  100% {
-    left: 500px;
-  }
-}
-@-o-keyframes bgoundScroll {
-  0% {
-    left: -500px;
-  }
-  100% {
-    left: 500px;
-  }
-}
-@-ms-keyframes bgroundScroll {
-  0% {
-    left: -500px;
-  }
-  100% {
-    left: 500px;
   }
 }
