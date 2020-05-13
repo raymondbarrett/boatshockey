@@ -56,7 +56,8 @@
 .waves {
   width: 100%;
   height: 100%;
-  margin: -1px;
+  margin: 0;
+  padding: 0;
   z-index: -1;
   position: absolute;
   bottom: 0px;
@@ -108,42 +109,42 @@
 
 @keyframes flyIn {
   0% {
-    top: 0;
+    top: 100%;
   }
   100% {
-    top: 55%;
+    top: 45%;
   }
 }
 @-moz-keyframes flyIn {
   0% {
-    top: 0;
+    top: 100%;
   }
   100% {
-    top: 55%;
+    top: 45%;
   }
 }
 @-webkit-keyframes flyIn {
  0% {
-    top: 0;
+    top: 100%;
   }
   100% {
-    top: 55%;
+    top: 45%;
   }
 }
 @-o-keyframes flyIn {
-  0% {
-    top: 0;
+ 0% {
+    top: 100%;
   }
   100% {
-    top: 55%;
+    top: 45%;
   }
 }
 @-ms-keyframes flyIn {
  0% {
-    top: 0;
+    top: 100%;
   }
   100% {
-    top: 55%;
+    top: 45%;
   }
 }
 
