@@ -108,45 +108,44 @@
 
 @keyframes flyIn {
   0% {
-    bottom: -600px;
+    top: 0;
   }
   100% {
-    bottom: 0;
+    top: 55%;
   }
 }
 @-moz-keyframes flyIn {
   0% {
-    bottom: -600px;
+    top: 0;
   }
   100% {
-    bottom: 0;
+    top: 55%;
   }
 }
 @-webkit-keyframes flyIn {
  0% {
-    bottom: -600px;
+    top: 0;
   }
   100% {
-    bottom: 0;
+    top: 55%;
   }
 }
 @-o-keyframes flyIn {
   0% {
-    bottom: -600px;
+    top: 0;
   }
   100% {
-    bottom: 0;
+    top: 55%;
   }
 }
 @-ms-keyframes flyIn {
-  0% {
-    bottom: -600px;
+ 0% {
+    top: 0;
   }
   100% {
-    bottom: 0;
+    top: 55%;
   }
 }
-
 
 @keyframes headerIn {
   0% {
