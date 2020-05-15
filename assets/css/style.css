@@ -13,6 +13,7 @@ h2 {
   letter-spacing: 0.1em;
 }
 a.header {
+  display: inline-block;
   color: black;
   font-family: "Lucida Console" , monospace;
   font-size: 150%;
