@@ -12,4 +12,13 @@ h2 {
   font-size: 150%;
   letter-spacing: 0.1em;
 }
-
+header {
+  color: black;
+  font-family: "Lucida Console" , monospace;
+  font-size: 150%;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+header:hover {
+  color: white;
+}
