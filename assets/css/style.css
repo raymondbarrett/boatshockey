@@ -20,6 +20,8 @@ a.header {
   letter-spacing: 0.1em;
   font-weight: bold;
   text-decoration: none;
+  width: 68.63 px;
+  text-align: center;
 }
 a.header:hover {
   color: white;
