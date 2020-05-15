@@ -22,6 +22,7 @@ a.header {
   text-decoration: none;
   height: 68.63px;
   margin: auto;
+  text-align: center;
 }
 a.header:hover {
   color: white;
