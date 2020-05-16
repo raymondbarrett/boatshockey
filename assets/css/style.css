@@ -1,6 +1,6 @@
 @font-face{
   font-family: "nhl-94";
-  src: url("/../fonts/") format("truetype");
+  src: url("/../fonts/DlxFont.ttf") format("truetype");
 }
 h1 {
   color: black;
