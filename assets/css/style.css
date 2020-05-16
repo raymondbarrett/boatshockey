@@ -1,6 +1,6 @@
 @font-face{
   font-family: "nhl-94";
-  src: "../fonts/
+  src: "../fonts/DlxFont.ttf" format: truetype;
 }
 h1 {
   color: black;
@@ -42,7 +42,7 @@ a.header:hover {
   top: 30%;
   color: white;
    z-index: 99;
-   font-family: "Lucida Console" , monospace;
+   font-family: "nhl-94";
    font-size: 150%;
    letter-spacing: 0.1em;
 }
