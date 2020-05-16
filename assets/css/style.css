@@ -1,4 +1,7 @@
-
+@font-face{
+  font-family: "nhl-94";
+  src: "../fonts/
+}
 h1 {
   color: black;
   font-family: "Lucida Console" , monospace;
