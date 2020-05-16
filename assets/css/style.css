@@ -1,6 +1,6 @@
 @font-face{
   font-family: "nhl-94";
-  src: url("/assets/fonts/DlxFont.ttf") format("truetype");
+  src: url("boatshockey/assets/fonts/DlxFont.ttf") format("truetype");
 }
 h1 {
   color: black;
