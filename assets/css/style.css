@@ -39,9 +39,9 @@ a.header:hover {
 }
 .statheader{
   position: absolute;
-  top: 30%;
+  top: 40%;
   color: white;
-   z-index: 99;
-   font-family: "nhl-94";
-   font-size: 125%;
+  z-index: 99;
+  font-family: "nhl-94";
+  font-size: 150%;
 }
