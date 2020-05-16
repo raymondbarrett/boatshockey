@@ -39,4 +39,7 @@ h3{
    font-family: "Lucida Console" , monospace;
    font-size: 150%;
    letter-spacing: 0.1em;
-} 
+}
+.statheader{
+  top: 30%;
+}
