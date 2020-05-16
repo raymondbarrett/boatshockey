@@ -43,5 +43,6 @@ h3{
    letter-spacing: 0.1em;
 }
 .statheader{
+  position: absolute;
   top: 30%;
 }
