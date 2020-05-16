@@ -34,15 +34,12 @@ a.header:hover {
   margin: 0;
   left: 0;
 }
-h3{
-   position: absolute;
-   color: white;
+.statheader{
+  position: absolute;
+  top: 30%;
+  color: white;
    z-index: 99;
    font-family: "Lucida Console" , monospace;
    font-size: 150%;
    letter-spacing: 0.1em;
-}
-.statheader{
-  position: absolute;
-  top: 30%;
 }
