@@ -39,7 +39,7 @@ a.header:hover {
 }
 .statheader{
   position: absolute;
-  top: 45%;
+  top: 40%;
   color: white;
   z-index: 99;
   font-family: "nhl-94";
