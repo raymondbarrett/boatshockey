@@ -35,7 +35,8 @@ a.header:hover {
   left: 0;
 }
 h3{
-   color: black;
+   color: white;
+   z-index: 99;
    font-family: "Lucida Console" , monospace;
    font-size: 150%;
    letter-spacing: 0.1em;
