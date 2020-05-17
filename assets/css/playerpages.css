@@ -11,6 +11,11 @@
   justify-content: center;
   overflow: hidden;
 }
+.frame {
+  position: absolute;
+  left: 742px;
+  top: 84px;
+}
 .bground {
   position: absolute;
   width: 100%;
