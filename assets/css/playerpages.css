@@ -30,5 +30,7 @@
 }
 .header {
   top: 387px;
+  color: white;
+  font-family: "nhl-94";
   text-align: center;
 }
