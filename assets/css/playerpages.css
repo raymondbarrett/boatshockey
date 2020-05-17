@@ -1,3 +1,7 @@
+@font-face{
+  font-family: "nhl-94";
+  src: url("../fonts/DlxFont.ttf") format("truetype");
+}
 .picture {
   position: absolute;
   z-index: -1;
@@ -23,4 +27,8 @@
   left: 0;
   top: 0;
   overflow: hidden;
-}    
+}
+.header {
+  top: 387px;
+  text-align: center;
+}
