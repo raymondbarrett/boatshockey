@@ -29,8 +29,11 @@
   overflow: hidden;
 }
 .header {
+  position: absolute;
   top: 387px;
   color: white;
+  z-index: 999;
   font-family: "nhl-94";
+  font-size: 200%;
   text-align: center;
 }
