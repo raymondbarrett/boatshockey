@@ -4,7 +4,7 @@
 }
 .picture {
   position: absolute;
-  z-index: -1;
+  z-index: 2;
   display: flex;
   width: 270px;
   height: 270px;
@@ -17,6 +17,7 @@
 }
 .frame {
   position: absolute;
+  z-index: 4;
   left: 803px;
   top: 85px;
 }
