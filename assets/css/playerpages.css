@@ -1,5 +1,9 @@
 .picture {
-  display: block
+  z-index: -1;
+  display: block;
+  width: 289px;
+  height: 270px;
+  background-position: center;
 }
 .bground {
   position: absolute;
