@@ -2,11 +2,14 @@
   position: absolute;
   z-index: -1;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 289px;
   height: 270px;
-  left: 745px;
-  top: 107px;
+  left: 570px;
+  top: -60px;
   background-position: center;
+  overflow: hidden;
 }
 .bground {
   position: absolute;
