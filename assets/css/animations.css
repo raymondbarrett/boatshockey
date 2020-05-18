@@ -1,7 +1,7 @@
 .fly-fade-in {
   position: absolute;
   width: 1920px;
-  margin: auto;  
+  margin: 0;  
   animation: fadeIn ease 2s, flyIn ease forwards 2s;
   -webkit-animation: fadeIn ease 2s, flyIn ease forwards 2s;
   -moz-animation: fadeIn ease 2s, flyIn ease forwards 2s;
