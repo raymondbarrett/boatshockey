@@ -34,6 +34,7 @@ a.header:hover {
   box-sizing = border-box;
   top: -2px;
   width: 1920px;
+  height: 100%;
   overflow: hidden;
   left: 0;
   margin: 0;
