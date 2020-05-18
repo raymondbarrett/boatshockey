@@ -55,15 +55,19 @@ a.statline{
 a.statline:hover{
   color: white;
 }
-.farrugia{
+.statline1{
   position: absolute;
   top: 50%;
 }
-.grogan{
+.statline2{
   position: absolute;
   top: 55%;
 }
-.newell{
+.statline3{
   position: absolute;
   top: 60%;
+}
+.statline4{
+  position: absolute;
+  top: 65%;
 }
