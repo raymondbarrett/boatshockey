@@ -40,6 +40,7 @@ a.header:hover {
 .statheader{
   position: absolute;
   top: 40%;
+  width: 1920px;
   color: white;
   z-index: 99;
   font-family: "nhl-94";
@@ -48,6 +49,7 @@ a.header:hover {
 a.statline{
   color: #bde3ff;
   text-decoration: none;
+  width: 1920px;
   z-index: 99;
   font-family: "nhl-94";
   font-size: 150%;
