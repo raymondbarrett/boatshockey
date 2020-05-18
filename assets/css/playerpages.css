@@ -24,6 +24,7 @@
 .bground {
   position: absolute;
   width: 1920px;
+  margin: 0;
   height: 100%;
   left: 0;
   top: 0;
@@ -33,6 +34,7 @@
   position: absolute;
   top: 387px;
   width: 1920px;
+  margin: 0;
   color: white;
   z-index: 999;
   font-family: "nhl-94";
