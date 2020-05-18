@@ -44,7 +44,7 @@ a.header:hover {
 .statheader{
   position: absolute;
   box-sizing = border-box;
-  top: 40%;
+  top: 350px;
   width: 1920px;
   margin: 0;
   padding: 0;
@@ -71,17 +71,17 @@ a.statline:hover{
 }
 .statline1{
   position: absolute;
-  top: 50%;
+  top: 385px;
 }
 .statline2{
   position: absolute;
-  top: 55%;
+  top: 420px;
 }
 .statline3{
   position: absolute;
-  top: 60%;
+  top: 455px;;
 }
 .statline4{
   position: absolute;
-  top: 65%;
+  top: 490px;
 }
