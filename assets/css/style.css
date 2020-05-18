@@ -45,3 +45,17 @@ a.header:hover {
   font-family: "nhl-94";
   font-size: 150%;
 }
+a.statline{
+  color: #bde3ff;
+  text-decoration: none;
+  z-index: 99;
+  font-family: "nhl-94";
+  font-size: 150%;
+}
+a.statline:hover{
+  color: white;
+}
+.statline1{
+  position: absolute;
+  top: 45%;
+}
