@@ -41,6 +41,7 @@ a.header:hover {
   position: absolute;
   top: 40%;
   width: 1920px;
+  margin: 0;
   color: white;
   z-index: 99;
   font-family: "nhl-94";
@@ -50,6 +51,7 @@ a.statline{
   color: #bde3ff;
   text-decoration: none;
   width: 1920px;
+  margin: 0;
   z-index: 99;
   font-family: "nhl-94";
   font-size: 150%;
