@@ -1,7 +1,6 @@
 .fly-fade-in {
   position: absolute;
-  width: 90%;
-  left: 5%;
+  width: 1920px;
   margin: auto;  
   animation: fadeIn ease 2s, flyIn ease forwards 2s;
   -webkit-animation: fadeIn ease 2s, flyIn ease forwards 2s;
@@ -11,7 +10,7 @@
 }
 .header-fade-1 {
   position: absolute;
-  left: 10%;
+  left: 192px;
   bottom: 100%;
   margin: auto; 
   animation: fadeIn 2s ease 2s, headerIn 2s ease forwards 2s;
@@ -22,7 +21,7 @@
 }
 .header-fade-2 {
   position: absolute;
-  left: 20%;
+  left: 384px;
   bottom: 100%;
   margin: auto; 
   animation: fadeIn 2s ease 2.5s, headerIn 2s ease forwards 2.5s;
@@ -33,7 +32,7 @@
 }
 .header-fade-3 {
   position: absolute;
-  left: 30%;
+  left: 576px;
   bottom: 100%;
   margin: auto; 
   animation: fadeIn 2s ease 3s, headerIn 2s ease forwards 3s;
@@ -44,7 +43,7 @@
 }
 .header-fade-4 {
   position: absolute;
-  left: 40%;
+  left: 768px;
   bottom: 100%;
   margin: auto; 
   animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
@@ -57,7 +56,7 @@
   box-sizing = border-box;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 1920px;
   margin: 0;
   padding: 0;
   z-index: -1;
