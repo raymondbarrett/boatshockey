@@ -31,6 +31,7 @@ a.header:hover {
 }
 .bground {
   position: absolute;
+  box-sizing = border-box;
   top: -2px;
   width: 1920px;
   overflow: hidden;
@@ -41,6 +42,7 @@ a.header:hover {
 }
 .statheader{
   position: absolute;
+  box-sizing = border-box;
   top: 40%;
   width: 1920px;
   margin: 0;
@@ -52,9 +54,11 @@ a.header:hover {
   font-size: 150%;
 }
 a.statline{
+  position: absolute;
   color: #bde3ff;
   text-decoration: none;
   width: 1920px;
+  box-sizing = border-box;
   margin: 0;
   left: 0;
   z-index: 99;
