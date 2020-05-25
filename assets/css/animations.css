@@ -1,8 +1,7 @@
 .fly-fade-in {
   position: absolute;
-  width: 90%;
-  height: 100%;
-  margin: 5%;
+  max-width: 90%;
+  height: auto;
   object-fit: contain;
   animation: fadeIn ease 2s, flyIn ease forwards 2s;
   -webkit-animation: fadeIn ease 2s, flyIn ease forwards 2s;
