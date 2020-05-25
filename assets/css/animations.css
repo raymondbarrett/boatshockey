@@ -2,7 +2,7 @@
   position: absolute;
   max-width: 90%;
   margin: 0 5%;
-  object-fit: contain;
+  object-fit: scale-down;
   animation: fadeIn ease 2s, flyIn ease forwards 2s;
   -webkit-animation: fadeIn ease 2s, flyIn ease forwards 2s;
   -moz-animation: fadeIn ease 2s, flyIn ease forwards 2s;
