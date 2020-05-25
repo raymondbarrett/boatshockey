@@ -27,9 +27,13 @@
           <source src = "assets/videos/background.ogg" type = "video/ogg">
         </video>
       </div>
-    <audio autoplay>
-      <source src = "assets/audio/Track_No23.mp3" type = "audio/mp3">
-      <source src = "assets/audio/Track_No23.ogg" type = "audio/ogg">
-    </audio>
+    <script>
+      function playAudio(url) {
+          new Audio(url).play();
+      }
+    </script>
+    <div class = "audiobutton">
+      <img src="index.png" onclick="playAudio('assets/audio/Track_No23.mp3')">
+    </div>
   </body>
 </html>
