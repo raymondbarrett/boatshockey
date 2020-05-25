@@ -21,6 +21,24 @@ h2 {
   font-size: 150%;
   letter-spacing: 0.1em;
 }
+.teamid{
+  position: abosolute;
+  width: 232px;
+  height: 40px;
+  right: 1600px;
+  top: 250px;
+  z-index: 10;
+  color: white;
+  font-family: "nhl-94";
+  font-size: 150%;
+  text-align: center;
+}
+.teamborder{
+  position: absolute;
+  right: 1600px;
+  top: 250px;
+  z-index: 9;
+}
 .audiobutton {
   position: absolute;
   top: 3%;
