@@ -5,6 +5,9 @@
 body {
   background-color: #edc708;
 }
+boats {
+  max-width: 100%;
+}
 h1 {
   color: black;
   font-family: "Lucida Console" , monospace;
