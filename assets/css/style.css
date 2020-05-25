@@ -40,7 +40,7 @@ a.header {
 a.header:hover {
   color: white;
 }
-goalieheader{
+.goalieheader{
   position: absolute;
   box-sizing = border-box;
   top: 650px;
