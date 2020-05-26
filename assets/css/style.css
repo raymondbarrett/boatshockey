@@ -17,7 +17,8 @@ h1 {
 }
 ul.header {
   font-size: 150%;
-  transition-property: height; 
+  transition-property: height;
+  transition-duration: 0.5s;
   letter-spacing: 0.1em;
   font-family: "nhl-94";
   z-index = 99;
