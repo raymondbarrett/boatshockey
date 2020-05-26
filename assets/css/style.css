@@ -23,6 +23,7 @@ ul.header {
   list-style-type: none;
   height: 28px;
   background: #edc70;
+  overflow: hidden;
 }
 ul.header:hover{
   height: 84px;
