@@ -25,8 +25,8 @@ h2 {
   position: absolute;
   width: 232px;
   height: 40px;
-  right: 500px;
-  top: 250px;
+  right: 400px;
+  top: 232px;
   z-index: 10;
   color: white;
   font-family: "nhl-94";
@@ -35,7 +35,7 @@ h2 {
 }
 .teamframe{
   position: absolute;
-  right: 500px;
+  right: 400px;
   top: 250px;
   z-index: 9;
 }
