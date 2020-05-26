@@ -21,6 +21,12 @@ ul.header {
   font-family: "nhl-94";
   z-index = 99;
   list-style-type: none;
+  height: 28px;
+  background: #edc70;
+}
+ul.header:hover{
+  height: 84px;
+  transition-property: height; 
 }
 h2 {
   color: black;
