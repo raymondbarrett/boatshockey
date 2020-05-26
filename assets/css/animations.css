@@ -12,7 +12,7 @@
 .header-fade-1 {
   position: absolute;
   left: 10%;
-  bottom: 100%;
+  top: -28px;
   margin: auto; 
   animation: fadeIn 2s ease 2s, headerIn 2s ease forwards 2s;
   -webkit-animation: fadeIn 2s ease 2s, headerIn 2s ease forwards 2s;
