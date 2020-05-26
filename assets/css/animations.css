@@ -113,7 +113,7 @@
     bottom: -50%;
   }
   100% {
-    bottom: 30%;
+    bottom: 40%;
   }
 }
 @-moz-keyframes flyIn {
@@ -121,7 +121,7 @@
     bottom: -50%;
   }
   100% {
-    bottom: 30%;
+    bottom: 40%;
   }
 }
 @-webkit-keyframes flyIn {
@@ -129,7 +129,7 @@
     bottom: -50%;
   }
   100% {
-    bottom: 30%;
+    bottom: 40%;
   }
 }
 @-o-keyframes flyIn {
@@ -137,7 +137,7 @@
     bottom: -50%;
   }
   100% {
-    bottom: 30%;
+    bottom: 40%;
   }
 }
 @-ms-keyframes flyIn {
@@ -145,7 +145,7 @@
     bottom: -50%;
   }
   100% {
-    bottom: 30%;
+    bottom: 40%;
   }
 }
 
