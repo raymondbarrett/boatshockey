@@ -110,42 +110,42 @@
 
 @keyframes flyIn {
   0% {
-    top: 100%;
+    bottom: -50%;
   }
   100% {
-    top: 5%;
+    bottom: 30%;
   }
 }
 @-moz-keyframes flyIn {
   0% {
-    top: 100%;
+    bottom: -50%;
   }
   100% {
-    top: 5%;
+    bottom: 30%;
   }
 }
 @-webkit-keyframes flyIn {
  0% {
-    top: 100%;
+    bottom: -50%;
   }
   100% {
-    top: 5%;
+    bottom: 30%;
   }
 }
 @-o-keyframes flyIn {
  0% {
-    top: 100%;
+    bottom: -50%;
   }
   100% {
-    top: 5%;
+    bottom: 30%;
   }
 }
 @-ms-keyframes flyIn {
  0% {
-    top: 100%;
+    bottom: -50%;
   }
   100% {
-    top: 5%;
+    bottom: 30%;
   }
 }
 
