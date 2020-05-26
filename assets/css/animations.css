@@ -192,42 +192,42 @@
 
 @keyframes headerIn {
   0% {
-    bottom: 100%;
+    top: -28px;
   }
   100% {
-    bottom: 90%;
+    top: 5%;
   }
 }
 @-moz-keyframes headerIn {
   0% {
-    bottom: 100%;
+    top: -28px;
   }
   100% {
-    bottom: 90%;
+    top: 5%;
   }
 }
 @-webkit-keyframes headerIn {
   0% {
-    bottom: 100%;
+    top: -28px;
   }
   100% {
-    bottom: 90%;
+    top: 5%;
   }
 }
 @-o-keyframes headerIn {
   0% {
-    bottom: 100%;
+    top: -28px;
   }
   100% {
-    bottom: 90%;
+    top: 5%;
   }
 }
 @-ms-keyframes headerIn {
   0% {
-    bottom: 100%;
+    top: -28px;
   }
   100% {
-    bottom: 90%;
+    top: 5%;
   }
 }
 @keyframes bgroundIn {
