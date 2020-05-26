@@ -17,6 +17,7 @@ h1 {
 }
 ul.header {
   font-size: 150%;
+  transition-property: height; 
   letter-spacing: 0.1em;
   font-family: "nhl-94";
   z-index = 99;
@@ -26,7 +27,6 @@ ul.header {
   overflow: hidden;
 }
 ul.header:hover{
-  transition-property: height; 
   height: 84px;
 }
 h2 {
