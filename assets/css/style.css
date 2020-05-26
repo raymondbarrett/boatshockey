@@ -26,8 +26,8 @@ ul.header {
   overflow: hidden;
 }
 ul.header:hover{
-  height: 84px;
   transition-property: height; 
+  height: 84px;
 }
 h2 {
   color: black;
