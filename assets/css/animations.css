@@ -106,8 +106,6 @@
     opacity:1;
   }
 }
-
-
 @keyframes flyIn {
   0% {
     bottom: -50%;
@@ -148,6 +146,49 @@
     bottom: 40%;
   }
 }
+@media screen and (max-width: 450px){
+  @keyframes flyIn {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: 20%;
+    }
+  }
+  @-moz-keyframes flyIn {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: 20%;
+    }
+  }
+  @-webkit-keyframes flyIn {
+   0% {
+      top: 100%;
+    }
+    100% {
+      top: 20%;
+    }
+  }
+  @-o-keyframes flyIn {
+   0% {
+      top: 100%;
+    }
+    100% {
+      top: 20%;
+    }
+  }
+  @-ms-keyframes flyIn {
+   0% {
+      top: 100%;
+    }
+    100% {
+      top: 20%;
+    }
+  }
+}
+
 
 @keyframes headerIn {
   0% {
