@@ -67,15 +67,12 @@ h2 {
   right: 5%
 }
 a.header {
-  display: inline-block;
-  color: black;
-  font-family: "Lucida Console" , monospace;
   font-size: 150%;
   letter-spacing: 0.1em;
-  font-weight: bold;
-  text-decoration: none;
-  margin: auto;
-  text-align: center;
+  font-family: "nhl-94";
+  height: 28px;
+  background: #edc70;
+  overflow: hidden;
 }
 a.header:hover {
   color: white;
