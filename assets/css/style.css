@@ -24,7 +24,7 @@ ul.header {
   z-index = 99;
   list-style-type: none;
   height: 28px;
-  background: #edc708;
+  background: #3abee5;
   overflow: hidden;
 }
 ul.header:hover{
@@ -68,6 +68,7 @@ h2 {
 }
 a.header {
   font-size: 150%;
+  background: #3abee5;
   color: black;
   letter-spacing: 0.1em;
   font-family: "nhl-94";
