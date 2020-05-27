@@ -22,7 +22,7 @@
 }
 .header-fade-2 {
   position: absolute;
-  left: 15%;
+  left: 310px;
   bottom: 100%;
   margin: auto; 
   animation: fadeIn 2s ease 2.5s, headerIn 2s ease forwards 2.5s;
