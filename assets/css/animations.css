@@ -44,8 +44,8 @@
 }
 .header-fade-4 {
   position: absolute;
-  left: 30%;
-  bottom: 100%;
+  left: 720px;
+  top: -28px;
   margin: auto; 
   animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
   -webkit-animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
