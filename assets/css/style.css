@@ -24,7 +24,7 @@ ul.header {
   z-index = 99;
   list-style-type: none;
   height: 28px;
-  background: #edc70;
+  background: #edc708;
   overflow: hidden;
 }
 ul.header:hover{
