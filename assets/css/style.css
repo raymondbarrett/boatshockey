@@ -28,7 +28,7 @@ ul.header {
   overflow: hidden;
 }
 ul.header:hover{
-  height: 100%;
+  height: 86px;
   cursor: default;
 }
 a.dropdown{
