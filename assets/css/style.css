@@ -3,7 +3,7 @@
   src: url("../fonts/DlxFont.ttf") format("truetype");
 }
 body {
-  background-color: #edc708;
+  background-color: #f1bf00;
 }
 .boats {
   max-width: 100%;
@@ -24,7 +24,7 @@ ul.header {
   z-index = 99;
   list-style-type: none;
   height: 28px;
-  background: #3abee5;
+  background: #f1bf00;
   overflow: hidden;
 }
 ul.header:hover{
@@ -68,7 +68,6 @@ h2 {
 }
 a.header {
   font-size: 150%;
-  background: #3abee5;
   color: black;
   letter-spacing: 0.1em;
   font-family: "nhl-94";
