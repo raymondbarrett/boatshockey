@@ -29,6 +29,14 @@ ul.header {
 }
 ul.header:hover{
   height: 84px;
+  cursor: default;
+}
+a.dropdown{
+  color: grey;
+  text-decoration: none;
+}
+a.dropdown:hover{
+  color: white;
 }
 h2 {
   color: black;
