@@ -33,7 +33,7 @@
 }
 .header-fade-3 {
   position: absolute;
-  left: 560px;
+  left: 531px;
   top: -28px;
   margin: auto; 
   animation: fadeIn 2s ease 3s, headerIn 2s ease forwards 3s;
@@ -44,7 +44,7 @@
 }
 .header-fade-4 {
   position: absolute;
-  left: 730px;
+  left: 749px;
   top: -28px;
   margin: auto; 
   animation: fadeIn 2s ease 4s, headerIn 2s ease forwards 4s;
