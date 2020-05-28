@@ -44,6 +44,48 @@ a.dropdown{
 a.dropdown:hover{
   color: white;
 }
+#sidebar{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #457f96;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#body-overlay{
+  position: fixed;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  left: 0;
+  top: 0;
+}
+.sidebar-button{
+  position: fixed;
+  left: 5%;
+  top: 5%;
+  transition: 0.5s;
+}
+#sidebar-overlay:hover{
+  opacity: 50%;
+}
+.sidebar-dropdown{
+  display: block;
+  padding: 10px 10px 10px 30px;
+  font-size: 150%;
+  transition-property: height;
+  transition-duration: 0.5s;
+  letter-spacing: 0.1em;
+  font-family: "nhl-94";
+  z-index = 3;
+  list-style-type: none;
+  height: 28px;
+  background: #f1bf00;
+  overflow: hidden;
+}
 h2 {
   color: black;
   font-family: "Lucida Console" , monospace;
