@@ -84,7 +84,6 @@ a.dropdown:hover{
   z-index = 3;
   list-style-type: none;
   height: 28px;
-  background: #f1bf00;
   overflow: hidden;
 }
 h2 {
