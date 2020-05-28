@@ -29,6 +29,10 @@ ul.header {
   background: #f1bf00;
   overflow: hidden;
 }
+@media screen and (max-width: 1200px){
+  ul.header{visibility: hidden;}
+  a.header{visibility: hidden;}
+}
 ul.header:hover{
   height: 86px;
   cursor: default;
