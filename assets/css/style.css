@@ -65,7 +65,7 @@ a.dropdown:hover{
   left: 0;
   top: 0;
 }
-.sidebar-button{
+#sidebar-button{
   position: fixed;
   left: 5%;
   top: 5%;
