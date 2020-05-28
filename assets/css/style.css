@@ -29,11 +29,6 @@ ul.header {
   background: #f1bf00;
   overflow: hidden;
 }
-@media screen and (max-width: 1200px){
-  ul.header{visibility: hidden;}
-  a.header{visibility: hidden;}
-  #sidebar-button{visibility: visible;}
-}
 ul.header:hover{
   height: 86px;
   cursor: default;
@@ -69,8 +64,8 @@ a.dropdown:hover{
 #sidebar-button{
   visibility: hidden;
   position: fixed;
-  left: 5%;
-  top: 5%;
+  left: 50px;
+  top: 50px;
   transition: 0.5s;
 }
 #sidebar-overlay:hover{
@@ -143,6 +138,11 @@ a.header:hover {
   z-index: 99;
   font-family: "nhl-94";
   font-size: 150%;
+}
+@media screen and (max-width: 1200px){
+  ul.header{visibility: hidden;}
+  a.header{visibility: hidden;}
+  #sidebar-button{visibility: visible;}
 }
 .bground {
   position: absolute;
