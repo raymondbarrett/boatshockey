@@ -32,9 +32,8 @@
     </div>
     <div id = body-overlay onclick = "sidebarClose()"></div>
     <div id = "sidebar">
-      <div id = "sidebar1">
-        <ul class = "sidebar-dropdown" onclick = "sidebarExpand1()">
-           <li>Schedule</li>
+        <ul id = "sidebar1" class = "sidebar-dropdown" onclick = "sidebarExpand1()">
+           <li onclick = "sidebar1Expand()">Schedule</li>
            <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761240&seasonid=20001">&emsp;Iron</a></li>
            <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761031&seasonid=20001">&emsp;Tin</a></li>
         </ul>
@@ -72,13 +71,13 @@
         document.getElementById("body-overlay").style.opacity = "0";
      }
      function sidebarExpand1(){
-       document.getElementById("sidebar1").style.height = "86px;"
+       document.getElementById("sidebar1").style.height = "86px";
      }
       function sidebarExpand2(){
-       document.getElementById("sidebar2").style.height = "86px;"
+       document.getElementById("sidebar2").style.height = "86px";
      }
       function sidebarExpand3(){
-       document.getElementById("sidebar3").style.height = "86px;"
+       document.getElementById("sidebar3").style.height = "86px";
      }
     </script>
     <div class = "audiobutton">
