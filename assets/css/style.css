@@ -58,6 +58,7 @@ a.dropdown:hover{
 }
 #body-overlay{
   position: fixed;
+  background-color: black;
   transition-property: opacity;
   transition-duration: 0.5s;
   left: 0;
