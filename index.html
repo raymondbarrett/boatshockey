@@ -61,10 +61,13 @@
       }
       function sidebarOpen() {
         document.getElementById("sidebar").style.width = "250px";
-        document.getElementById("sidebar").style.width = "250px";
+        document.getElementById("body-overlay").style.width = "100%";
+        document.getElementById("body-overlay").style.opacity = "50%%";
       }
       function sidebarClose() {
         document.getElementById("sidebar").style.width = "0";
+        document.getElementById("body-overlay").style.width = "0";
+        document.getElementById("body-overlay").style.opacity = "50%";
      }
     </script>
     <div class = "audiobutton">
