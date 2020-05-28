@@ -32,12 +32,14 @@
     </div>
     <div id = body-overlay onclick = "sidebarClose()"></div>
     <div id = "sidebar">
-      <ul id = "sidebar1" class = "sidebar-dropdown" onclick = "sidebarExpand1()">
-         <li>Schedule</li>
-         <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761240&seasonid=20001">&emsp;Iron</a></li>
-         <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761031&seasonid=20001">&emsp;Tin</a></li>
-      </ul>
-      <ul  id = "sidebar2" class = "sidebar-dropdown" onclick = "sidebarExpand2()">
+      <div id = "sidebar1">
+        <ul class = "sidebar-dropdown" onclick = "sidebarExpand1()">
+           <li>Schedule</li>
+           <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761240&seasonid=20001">&emsp;Iron</a></li>
+           <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761031&seasonid=20001">&emsp;Tin</a></li>
+        </ul>
+      </div>
+      <ul id = "sidebar2" class = "sidebar-dropdown" onclick = "sidebarExpand2()">
          <li>Roster</li>
          <li><a class = "dropdown" href = "players/iron.html">&emsp;Iron</a></li>
          <li><a class = "dropdown" href = "players/tin.html">&emsp;Tin</a></li>
