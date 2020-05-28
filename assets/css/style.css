@@ -32,6 +32,7 @@ ul.header {
 @media screen and (max-width: 1200px){
   ul.header{visibility: hidden;}
   a.header{visibility: hidden;}
+  #sidebar-button{visibility: visible;}
 }
 ul.header:hover{
   height: 86px;
@@ -66,6 +67,7 @@ a.dropdown:hover{
   top: 0;
 }
 #sidebar-button{
+  visibility: hidden;
   position: fixed;
   left: 5%;
   top: 5%;
