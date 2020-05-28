@@ -26,6 +26,29 @@
          <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
          <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
     </ul>
+    <div id = "sidebar-button">
+      <img id = "sidebar-overlay" onclick = "sidebarOpen()" src = "assets/images/sidebarblack.png"/>
+      <img src = "assets/images/sidebarwhite.png"/>
+    </div>
+    <div id = body-overlay onclick = "sidebarClose()"></div>
+    <div id = "sidebar">
+      <ul class = sidebar-dropdown>
+         <li>Schedule</li>
+         <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761240&seasonid=20001">&emsp;Iron</a></li>
+         <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761031&seasonid=20001">&emsp;Tin</a></li>
+      </ul>
+      <ul class = "sidebar-dropdown">
+         <li>Roster</li>
+         <li><a class = "dropdown" href = "players/iron.html">&emsp;Iron</a></li>
+         <li><a class = "dropdown" href = "players/tin.html">&emsp;Tin</a></li>
+      </ul>
+      <a class = "sidebar-dropdown" href = "history.html">History</a>
+      <ul class = "sidebar-dropdown">
+         <li>Extras</li>
+         <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
+         <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
+      </ul>
+    </div>
       <div class = "waves">
         <video autoplay muted loop playsinline = "true">
           <source src = "assets/videos/background.m4v" type = "video/mp4">
@@ -36,6 +59,13 @@
       function playAudio(url) {
           new Audio(url).play();
       }
+      function sidebarOpen() {
+        document.getElementById("sidebar").style.width = "250px";
+        document.getElementById("sidebar").style.width = "250px";
+      }
+      function sidebarClose() {
+        document.getElementById("sidebar").style.width = "0";
+     }
     </script>
     <div class = "audiobutton">
       <img src="assets/images/index.png" onclick="playAudio('assets/audio/Track_No23.mp3')">
