@@ -5,10 +5,10 @@
 .viewport-clip{
   height: 100%;
   width: 100%;
+  overflow:hidden;
 }
 body {
   background-color: #f1bf00;
-  overflow: hidden;
 }
 .boats {
   max-width: 100%;
