@@ -2,6 +2,10 @@
   font-family: "nhl-94";
   src: url("../fonts/DlxFont.ttf") format("truetype");
 }
+viewport-clip{
+  height: 100%;
+  width: 100%;
+}
 body {
   background-color: #f1bf00;
 }
