@@ -7,79 +7,81 @@
     <link rel="stylesheet" type="text/css" href="assets/css/animations.css">
   </head>
   <body>
-    <div class = "fly-fade-in">
-      <img src = "assets/images/boats.png" class = "boats" />
-    </div>
-    <ul class = "header-fade-1 header">
-         <li>Schedule</li>
-         <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761240&seasonid=20001">Iron</a></li>
-         <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761031&seasonid=20001">Tin</a></li>
-    </ul>
-    <ul class = "header-fade-2 header">
-         <li>Roster</li>
-         <li><a class = "dropdown" href = "players/iron.html">Iron</a></li>
-         <li><a class = "dropdown" href = "players/tin.html">Tin</a></li>
-    </ul>
-    <a class = "header-fade-3 header" href = "history.html">History</a>
-    <ul class = "header-fade-4 header">
-         <li>Extras</li>
-         <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
-         <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
-    </ul>
-    <div id = "sidebar-button">
-      <img id = "sidebar-overlay" onclick = "sidebarOpen()" src = "assets/images/menublack.png"/>
-    </div>
-    <div id = body-overlay onclick = "sidebarClose()"></div>
-    <div id = "sidebar">
-        <ul id = "sidebar1" class = "sidebar-dropdown" onclick = "sidebarExpand1()">
+    <div class = "viewport-clip">
+      <div class = "fly-fade-in">
+        <img src = "assets/images/boats.png" class = "boats" />
+      </div>
+      <ul class = "header-fade-1 header">
            <li>Schedule</li>
            <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761240&seasonid=20001">Iron</a></li>
            <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761031&seasonid=20001">Tin</a></li>
-        </ul>
-        <ul id = "sidebar2" class = "sidebar-dropdown" onclick = "sidebarExpand2()">
+      </ul>
+      <ul class = "header-fade-2 header">
            <li>Roster</li>
            <li><a class = "dropdown" href = "players/iron.html">Iron</a></li>
            <li><a class = "dropdown" href = "players/tin.html">Tin</a></li>
-        </ul>
-        <a class = "sidebar-dropdown" href = "history.html">History</a>
-        <ul id = "sidebar3" class = "sidebar-dropdown" onclick="sidebarExpand3()">
+      </ul>
+      <a class = "header-fade-3 header" href = "history.html">History</a>
+      <ul class = "header-fade-4 header">
            <li>Extras</li>
            <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
            <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
-        </ul>
-    </div>
-      <div class = "waves">
-        <video autoplay muted loop playsinline = "true">
-          <source src = "assets/videos/background.m4v" type = "video/mp4">
-          <source src = "assets/videos/background.ogg" type = "video/ogg">
-        </video>
+      </ul>
+      <div id = "sidebar-button">
+        <img id = "sidebar-overlay" onclick = "sidebarOpen()" src = "assets/images/menublack.png"/>
       </div>
-    <script>
-      function playAudio(url) {
-          new Audio(url).play();
-      }
-      function sidebarOpen() {
-        document.getElementById("sidebar").style.width = "250px";
-        document.getElementById("body-overlay").style.width = "100%";
-        document.getElementById("body-overlay").style.opacity = "50%";
-      }
-      function sidebarClose() {
-        document.getElementById("sidebar").style.width = "0";
-        document.getElementById("body-overlay").style.width = "0";
-        document.getElementById("body-overlay").style.opacity = "0";
-     }
-     function sidebarExpand1(){
-       document.getElementById("sidebar1").style.height = "86px";
-     }
-      function sidebarExpand2(){
-       document.getElementById("sidebar2").style.height = "86px";
-     }
-      function sidebarExpand3(){
-       document.getElementById("sidebar3").style.height = "86px";
-     }
-    </script>
-    <div class = "audiobutton">
-      <img src="assets/images/index.png" onclick="playAudio('assets/audio/Track_No23.mp3')">
+      <div id = body-overlay onclick = "sidebarClose()"></div>
+      <div id = "sidebar">
+          <ul id = "sidebar1" class = "sidebar-dropdown" onclick = "sidebarExpand1()">
+             <li>Schedule</li>
+             <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761240&seasonid=20001">Iron</a></li>
+             <li><a class = "dropdown" href = "https://pointstreak.com/players/players-team-schedule.html?teamid=761031&seasonid=20001">Tin</a></li>
+          </ul>
+          <ul id = "sidebar2" class = "sidebar-dropdown" onclick = "sidebarExpand2()">
+             <li>Roster</li>
+             <li><a class = "dropdown" href = "players/iron.html">Iron</a></li>
+             <li><a class = "dropdown" href = "players/tin.html">Tin</a></li>
+          </ul>
+          <a class = "sidebar-dropdown" href = "history.html">History</a>
+          <ul id = "sidebar3" class = "sidebar-dropdown" onclick="sidebarExpand3()">
+             <li>Extras</li>
+             <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
+             <li><a class = "dropdown" href = "tbd">coming soon...</a></li>
+          </ul>
+      </div>
+        <div class = "waves">
+          <video autoplay muted loop playsinline = "true">
+            <source src = "assets/videos/background.m4v" type = "video/mp4">
+            <source src = "assets/videos/background.ogg" type = "video/ogg">
+          </video>
+        </div>
+      <script>
+        function playAudio(url) {
+            new Audio(url).play();
+        }
+        function sidebarOpen() {
+          document.getElementById("sidebar").style.width = "250px";
+          document.getElementById("body-overlay").style.width = "100%";
+          document.getElementById("body-overlay").style.opacity = "50%";
+        }
+        function sidebarClose() {
+          document.getElementById("sidebar").style.width = "0";
+          document.getElementById("body-overlay").style.width = "0";
+          document.getElementById("body-overlay").style.opacity = "0";
+       }
+       function sidebarExpand1(){
+         document.getElementById("sidebar1").style.height = "86px";
+       }
+        function sidebarExpand2(){
+         document.getElementById("sidebar2").style.height = "86px";
+       }
+        function sidebarExpand3(){
+         document.getElementById("sidebar3").style.height = "86px";
+       }
+      </script>
+      <div class = "audiobutton">
+        <img src="assets/images/index.png" onclick="playAudio('assets/audio/Track_No23.mp3')">
+      </div>
     </div>
   </body>
 </html>
