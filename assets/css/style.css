@@ -3,11 +3,12 @@
   src: url("../fonts/DlxFont.ttf") format("truetype");
 }
 viewport-clip{
-  height: screen.height;
-  width: screen.width;
+  height: 100%;
+  width: 100%;
 }
 body {
   background-color: #f1bf00;
+  overflow: hidden;
 }
 .boats {
   max-width: 100%;
